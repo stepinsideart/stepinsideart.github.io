@@ -1,0 +1,101 @@
+< !DOCTYPE CSS><css>
+
+header {
+  color: #F5F5F5;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  background-color: #2196f3;
+  border-color: #2196f3;
+  padding-left: 20px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+nav a {
+  color: #F5F5F5;
+}
+
+h1 {
+  color: #F5F5F5;
+  margin: 0px;
+  margin-top: 0px;
+}
+
+h1 a {
+  color: #F5F5F5;
+}
+
+body {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  background: linear-gradient(61deg, #000000, #3c3b3b);
+  background-size: 1000% 1000%;
+  -webkit-animation: BgAnimation 7s ease infinite;
+  -moz-animation: BgAnimation 7s ease infinite;
+  animation: BgAnimation 7s ease infinite;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+p a {
+  color: #F5F5F5;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #F5F5F5
+}
+
+ul {
+  margin-left: 20px;
+}
+
+img {
+  border-color: #B2EBF2;
+  margin-left: 20px;
+}
+
+@-webkit-keyframes BgAnimation {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes BgAnimation {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes BgAnimation {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
